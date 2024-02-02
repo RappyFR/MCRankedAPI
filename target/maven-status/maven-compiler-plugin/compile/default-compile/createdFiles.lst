@@ -1,6 +1,0 @@
-fr\rappyfr\MCRanked.class
-fr\rappyfr\model\Accounts.class
-fr\rappyfr\manager\MongoManager.class
-fr\rappyfr\sql\MongoAccess.class
-fr\rappyfr\manager\AccountsManager.class
-fr\rappyfr\manager\PlayerManager.class
