@@ -1,0 +1,4 @@
+name: MCRankedAPI
+version: 1.0
+main: fr.rappyfr.MCRankedAPI
+api-version: 1.20
