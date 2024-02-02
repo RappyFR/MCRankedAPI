@@ -14,7 +14,7 @@ public class MongoAccess {
     private final MongoCollection<Document> playersDataCollection;
 
     public MongoAccess(){
-        this.mongoClient = MongoClients.create("mongodb+srv://rappyfr:mabichette59@spigotcluster.svh4vth.mongodb.net/?retryWrites=true&w=majority");
+        this.mongoClient = MongoClients.create("mongodb+srv://<username>:<mdp>@spigotcluster.svh4vth.mongodb.net/?retryWrites=true&w=majority");
         this.mongoDatabase = mongoClient.getDatabase("mcranked");
         this.playersCollection = mongoDatabase.getCollection("players");
         this.playersDataCollection = mongoDatabase.getCollection("playersData");
